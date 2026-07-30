@@ -1,7 +1,27 @@
 aid: kelai
-name: Kelai
-description: Kelai is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kelai.png
+name: KelAI
+description: KelAI (Kelai) is an AI quant research platform for hedge funds and institutional
+  investors that positions itself as an autonomous alpha engine. Its AI agents run the
+  full systematic-research workflow — generating trading-signal ideas, writing and testing
+  research code, analyzing market data, running backtests and validation, and monitoring
+  live signal performance — consolidating what normally runs across siloed systems and
+  inefficient workflows. Founded by Jeremie Cohen, a former WorldQuant portfolio manager
+  and head of event-driven systematic strategies who also led machine learning teams at
+  Millennium Management, KelAI is part of Y Combinator's Spring 2026 batch and is deployed
+  with institutional investors. As an early-stage company it does not yet publish a public
+  developer API, documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/kelai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Quantitative Finance
+- Hedge Funds
+- Trading
+- Machine Learning
+- Fintech
+- Investment Research
+- AI Agents
 apis: []
+common:
+- type: DomainSecurity
+  url: security/kelai-domain-security.yml
+- type: Website
+  url: https://kelaitech.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
