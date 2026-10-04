@@ -49,7 +49,7 @@ tags:
 - Quantitative Finance
 - Hedge Funds
 - Trading
-- Machine-Learning
+- Machine Learning
 - Fintech
 - Investment Research
 - AI Agents
@@ -63,6 +63,7 @@ tags_raw:
 - Fintech
 - Investment Research
 - AI Agents
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
